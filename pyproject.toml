@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "structapi"
+version = "0.0.1"
+description = "The collections for the structural python project."
+authors = ["minocrafft <minocrafft@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
