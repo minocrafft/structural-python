@@ -2,6 +2,12 @@ from typing import Optional
 from pydantic import BaseModel, ValidationError
 
 
+class Item(BaseModel):
+    title: str
+    description: str | None = None
+    price: float
+
+
 class HyperParameter(BaseModel):
     """
     Hyper parameters for the training of Deep learning model
